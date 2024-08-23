@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/AmorSansPro-Bold.ttf",
+      "sha1": "971285a7f6d9dad345a01ec10d2709b02cfa7413"
+    },
+    {
+      "path": "src/assets/fonts/AmorSansPro-BoldItalic.ttf",
+      "sha1": "7150588ebb01c2e892b4dc72268d0be73c774316"
+    },
+    {
+      "path": "src/assets/fonts/AmorSansPro-Italic.ttf",
+      "sha1": "869bc7a174d74f46b25831332909db6bc62d9786"
+    },
+    {
+      "path": "src/assets/fonts/AmorSansPro.ttf",
+      "sha1": "03b800ab507c10f641943ca69ef8b1f3e9fe8733"
+    },
+    {
+      "path": "src/assets/fonts/Bree-Bold.otf",
+      "sha1": "36ca9fb4e3bff5f1bae29418a1888e39ea8d2e65"
+    },
+    {
+      "path": "src/assets/fonts/Bree-Regular.otf",
+      "sha1": "d4c8d0a7895d5666f35a03b7bba35deacaa87b9a"
+    },
+    {
+      "path": "src/assets/fonts/BreeCF-Bold.otf",
+      "sha1": "0cc19da35843f4381498e50dc3646e6b73757eb3"
+    },
+    {
+      "path": "src/assets/fonts/BreeCF-Light.otf",
+      "sha1": "bd6f377e0e4650e353c3c74fdada80d7355a379d"
+    },
+    {
+      "path": "src/assets/fonts/BreeCF-Regular.otf",
+      "sha1": "f2c2d652cc504cb57b90a58e472acb8902465f13"
+    },
+    {
+      "path": "src/assets/fonts/BreeCFApp-BoldBold.otf",
+      "sha1": "bbaeb5c5e6c3996c8b02a0bb76987cb79c4ae8ec"
+    },
+    {
+      "path": "src/assets/fonts/BreeCFApp-RegularRegular.otf",
+      "sha1": "712c42835e1791ccf24a85d9852eb916af365630"
+    }
+  ]
+}

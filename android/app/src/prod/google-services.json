@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "813280864271",
+    "project_id": "cf-bancadigital-data-prd-baaf",
+    "storage_bucket": "cf-bancadigital-data-prd-baaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813280864271:android:5011cebd4cb8b8f8b85b7a",
+        "android_client_info": {
+          "package_name": "pe.com.compartamos.bancamovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813280864271-h70ml74h6p67em3mtputrhpq2j0fkef3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9R7l_D4TV7Jqb8m-mrgKslrfaGLMhfJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813280864271-h70ml74h6p67em3mtputrhpq2j0fkef3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "813280864271-edf67ddnng6le14i86q9uumrn698d5np.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "pe.com.compartamos.bancamovil"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

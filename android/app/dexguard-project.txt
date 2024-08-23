@@ -1,0 +1,165 @@
+-verbose
+
+# If you encounter problems in your project, you can let DexGuard instrument
+# your code, so the app prints out configuration suggestions at run-time, in
+# the logcat:
+#
+# -addconfigurationdebugging
+
+# Obfuscate the JavaScript bundle file
+-javascriptconfiguration javascript.yml
+
+# Specify the JavaScript-specific configuration file
+# (Required when using -obfuscatejavascript)
+
+-dontencrypthermesassetfile
+-dontinjectdebugblocker
+
+-keepresourcefiles lib/**.so
+-keep class com.facebook.hermes.reactexecutor.HermesExecutor { *; }
+-keep class com.facebook.** {*;}
+-keep class com.facebook.hermes.* { *; }
+-keep class com.facebook.hermes.** { *; }
+-keep class com.facebook.soloader. { *; }
+-keep class androidx.room.**{
+    public protected private *;
+}
+
+-keepresourcefiles **
+-keepresources */*
+
+-keep public class * {
+    public protected *;
+}
+
+-keepparameternames
+-renamesourcefileattribute SourceFile
+-keepattributes Signature,Exceptions,*Annotation*,
+                InnerClasses,PermittedSubclasses,EnclosingMethod,
+                Deprecated,SourceFile,LineNumberTable
+
+-keepclasseswithmembernames,includedescriptorclasses class * {
+    native <methods>;
+}
+
+-keepclassmembers,allowoptimization enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+}
+-keep class com.facebook.react.bridge.CatalystInstanceImpl { *; }
+-keep class com.facebook.react.bridge.JavaScriptExecutor { *; }
+-keep class com.facebook.react.bridge.queue.NativeRunnable { *; }
+-keep class com.facebook.react.bridge.ReadableType { *; }
+-keep class com.facebook.yoga.YogaNodeJNIFinalizer { *; }
+-keep class com.facebook.yoga.YogaNative.jni_YGNodeCalculateLayoutJNI { *; }
+-keep class com.android.installreferrer.api.** { *; }
+-keep class com.google.android.gms.common.** {*;}
+#-keep class android.support.v4.app.** { *; }
+#-keep interface android.support.v4.app.** { *; }
+
+-mergeinterfacesaggressively
+
+-dontwarn javax.annotation.Nullable
+
+-dontwarn javax.annotation.ParametersAreNonnullByDefault
+
+
+-keep class com.facephi.** { *; }
+-keep class com.sdktracking.** { *; }
+-keep class com.sdkcore.** { *; }
+-keep class com.sdkselphid.** { *; }
+-keep class com.sdkselphi.** { *; }
+-keep class com.reactnativecommunity.cameraroll.** { *; }
+-keep class com.google.android.libraries.vision.** { *; }
+
+#Firebase
+-keep class com.google.firebase.analytics.connector.AnalyticsConnectorImpl { *; }
+-keep class androidx.room.** {
+    public protected private *;
+}
+
+-keep interface com.facephi.** { *; }
+-keep interface com.sdktracking.** { *; }
+-keep interface com.sdkcore.** { *; }
+-keep interface com.sdkselphid.** { *; }
+-keep interface com.sdkselphi.** { *; }
+-keep interface com.reactnativecommunity.cameraroll.** { *; }
+-keep interface com.google.android.libraries.vision.** { *; }
+
+-obfuscatecode,high class com.gantix.JailMonkey.JailMonkeyModule
+-obfuscatecode,high class com.gantix.JailMonkey.JailMonkeyPackage
+-obfuscatecode,high class com.gantix.JailMonkey.Rooted.CheckApiVersion
+-obfuscatecode,high class com.gantix.JailMonkey.Rooted.GreaterThan23
+-obfuscatecode,high class com.gantix.JailMonkey.Rooted.LessThan23
+-obfuscatecode,high class com.gantix.JailMonkey.Rooted.RootedCheck
+-obfuscatecode,high class com.gantix.JailMonkey.Rooted.RootedCheck
+-obfuscatecode,high class com.gantix.JailMonkey.AdbEnabled.**
+-obfuscatecode,high class com.gantix.JailMonkey.ExternalStorage.**
+-obfuscatecode,high class com.gantix.JailMonkey.HookDetection.**
+-obfuscatecode,high class com.gantix.JailMonkey.MockLocation.**
+-obfuscatecode,high class com.scottyab.rootbeer.**
+-obfuscatecode,medium class com.toyberman.RNSslPinningPackage
+-obfuscatecode,medium class com.toyberman.RNSslPinningModule
+
+# Encrypt strings.
+-encryptstrings "SHA-256"
+-encryptstrings "BKS"
+-encryptstrings "TLS"
+-encryptstrings "GET"
+-encryptstrings "X509"
+-encryptstrings "https"
+-encryptstrings class com.guardsquare.dexguard.runtime.net.PublicKeyTrustManager
+
+# RASP
+#-raspchecks apptamper,!emulator,!debug,hook,certificatetamper,root,virtualenvironment,filetamper spray
+#-raspchecks apptamper,emulator,debug,hook,root,virtualenvironment
+#-raspchecks none
+-raspcertificatehash "11:ED:7E:B1:CF:E3:BA:8F:DA:5E:0C:57:E1:70:8E:20:65:50:03:74:09:1B:73:7A:49:7D:D6:24:62:E6:02:07"
+-raspfiletamperlist assets/apibdmprd_compartamos_com_pe.cer
+-raspchecks * entrypoint
+-raspaggressiveness hook medium
+-raspaggressiveness certificatetamper medium
+-raspaggressiveness apptamper medium
+-raspaggressiveness filetamper medium
+-raspaggressiveness debug low
+-raspaggressiveness emulator medium
+-raspaggressiveness root medium
+-raspaggressiveness virtualenvironment medium
+-raspaggressiveness memoryscanning medium
+
+-raspcontinueon *
+
+
+-raspclassfilter class !pe.com.compartamos.bancamovil.MainApplication
+
+-raspclassfilter class !pe.com.compartamos.bancamovil.MainActivity
+
+-raspclassfilter class !pe.com.compartamos.bancamovil.qa.MainApplication
+
+-raspclassfilter class !pe.com.compartamos.bancamovil.qa.MainActivity
+
+-raspdenylist class pe.com.compartamos.bancamovil.MainActivity {
+     void onCreate(android.os.Bundle);
+}
+-raspdenylist class pe.com.compartamos.bancamovil.qa.MainActivity {
+    void onCreate(android.os.Bundle);
+}
+
+
+# -printconfiguration conf.txt
+
+#Set-up Threat Cast API key
+-threatcastapikey eyJ2ZXJzaW9uIjoxLCJrZXkiOiI2NDU4ODAxOWUzOGQyNDY4YzQ1OTA2NDk2M2IxNmE5MDU3YTg2MjRkMzEyMjJjZDkiLCJmbGFncyI6eyJoZWFydGJlYXRzIjp0cnVlfSwiZW5kcG9pbnQiOiJjb21wYXJ0YW1vc2ZpbmFuY2llcmEudGhyZWF0Y2FzdC5ndWFyZHNxdWFyZS5jb20iLCJpbnRlZ3JhdGlvbktleSI6IjYwMzEyZDY3Zjk4ZjE1ZjAyMmM5ZTQzZTY4NDA1MjE2MjkwYzU0MzNlMmYxZDZiYjlmM2YxNTMxYTAwNDg3MDUiLCJzZWNyZXQiOiI5OWM5ZTJjYmEyMzAxYThiZDliMGJkNzE3NzZmZmFmMzMxNmY1NDg4MTBiYWRlNjI2OTk3Y2JiMmQ4OGNjNTE0In0=
+
+#Use a debug version of ThreatCast which prints additional information to logcat. Apps cannot be released when this version of ThreatCast is used.
+#-usethreatcastdebugclient
+#-addconfigurationdebugging

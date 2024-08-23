@@ -1,0 +1,3 @@
+export const convertToCurrency = (num: number, fixed: number = 2, slice: number = 24) => num.toFixed(fixed).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,').slice(0,slice);
+export const convertToCurrencyWithoutRounding = (num: number, fixed: number = 2, slice: number = 24) => (Math.trunc(num*100)/100).toFixed(fixed).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,').slice(0,slice);
+export const AsubstractB = (a: number, b: number) => Math.trunc(a*100)/100 - Math.trunc(b*100)/100;

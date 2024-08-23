@@ -1,0 +1,1 @@
+# rm -rf /usr/local/lib/ruby/gems/ && brew reinstall ruby

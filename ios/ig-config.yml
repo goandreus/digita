@@ -1,0 +1,100 @@
+# export:
+#   signing: true
+#   identity:        ED84FEA21B0AC910A06C4631B45C5AD091848011
+#   provisioning: 
+#     - provisioning-profile.mobileprovision
+
+# debug:
+#   verbosity: debug
+#   snapshot: true
+#   autoconfigure: true
+#   instrumentation:
+#     enabled: true
+
+protection:
+  enabled: true
+  names:
+    enabled:         false
+    denylist:
+      - ".*kGTMSessionFetcherStatusDomain.*"
+      - ".*zipzap.*"
+  arithmetic-operations:
+    enabled:         false
+  control-flow:
+    enabled:         false
+    logic:
+      enabled: false
+    calls:
+      enabled: false
+  data:
+    enabled:         true
+    optimization-level: max
+  code-integrity:
+    enabled:         true
+    functions:
+      enabled:         true
+      prologues: true
+      symbol-table: true
+      aggressiveness: min
+    tracing:
+      enabled:         true
+      memory-check: false
+      aggressiveness: min
+    objc-calls:
+      enabled:         true
+    system-library:
+      enabled:         true
+      aggressiveness: min
+  app-integrity:
+    enabled:         true
+  environment-integrity:
+    enabled:         true
+    jailbreak:
+      enabled:         true
+      aggressiveness: min
+      allow-apple-silicon: false
+    debugger:
+      enabled:         true
+      aggressiveness: min
+    clock-rate:
+      enabled:         true
+      aggressiveness: min
+    memory-access:
+      enabled:         true
+      aggressiveness: min
+    iap:
+      enabled:         true
+      aggressiveness: min
+    touch-simulation:
+      enabled:         true
+      aggressiveness: min
+    emulator:
+      enabled:         true
+      aggressiveness: min
+  resources:
+    enabled:         true
+    asset-catalog:   true
+javascript:
+  enabled: false
+  build:
+    prettify: false
+    encoding: 'UTF-8'
+  protection:
+    enabled: false
+    names:
+      enabled: true
+      denylist:
+        - ".*kGTMSessionFetcherStatusDomain.*"
+        - ".*zipzap.*"
+        - "main.jsbundle"
+    code:
+      arithmetic-operations:
+        enabled: false
+      control-flow:
+          enabled: false
+    data:
+      enabled: false
+    environment-integrity:
+      enabled: false
+  diversity:
+    enabled: false

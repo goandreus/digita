@@ -1,0 +1,101 @@
+buildscript {
+    if (project == rootProject) {
+        repositories {
+            google()
+            mavenCentral()
+            jcenter()
+        }
+
+        dependencies {
+            classpath 'com.android.tools.build:gradle:3.5.4'
+        }
+    }
+}
+
+apply plugin: 'com.android.library'
+
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+android {
+    compileSdkVersion safeExtGet('SdkMobileReactNative_compileSdkVersion', 31)
+    defaultConfig {
+        minSdkVersion safeExtGet('SdkMobileReactNative_minSdkVersion', 21)
+        targetSdkVersion safeExtGet('SdkMobileReactNative_targetSdkVersion', 31)
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    lintOptions {
+        disable 'GradleCompatible'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_9
+        targetCompatibility JavaVersion.VERSION_1_9
+    }
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+        url("$rootDir/../node_modules/react-native/android")
+    }
+    google()
+    mavenCentral()
+    jcenter()
+}
+
+rootProject.allprojects {
+    repositories {
+        maven {
+            name = "PRO"
+            url = uri("https://facephicorp.jfrog.io/artifactory/maven-pro-fphi")
+            credentials {
+              username = System.getenv("USERNAME_ARTIFACTORY")
+              password = System.getenv("TOKEN_ARTIFACTORY")
+            }
+            content {
+                includeGroup "com.facephi.androidsdk"
+                includeGroup "com.facephi.selphi.android"
+                includeGroup "com.facephi.selphid.android"
+                includeGroup "com.facephi.core"
+                includeGroup "com.facephi.sdk"
+            }
+        }
+        /*maven {
+          name = "SNAPSHOT"
+          url = uri("https://facephicorp.jfrog.io/artifactory/maven-snapshot-fphi")
+          credentials {
+            username = System.getenv("USERNAME_ARTIFACTORY")
+            password = System.getenv("TOKEN_ARTIFACTORY")
+          }
+        }
+        maven {
+            name = "DEV"
+            url = uri("https://facephicorp.jfrog.io/artifactory/maven-dev-fphi")
+            //url = uri("https://facephicorp.jfrog.io/artifactory/maven-snapshot-fphi")
+            credentials {
+                username = System.getenv("USERNAME_ARTIFACTORY")
+                password = System.getenv("TOKEN_ARTIFACTORY")
+            }
+        }*/
+    }
+}
+
+dependencies {
+  implementation project(':facephi_sdk-core-react-native')
+  //noinspection GradleDynamicVersion
+  //implementation "com.facebook.react:react-native:+"  // From node_modules
+
+  //implementation "com.facephi.androidsdk:sdk:1.4.0"
+  //implementation "com.facephi.androidsdk:core:1.4.0"
+  implementation "com.facephi.androidsdk:selphid_component:1.4.0"
+}

@@ -1,0 +1,6 @@
+//
+//  Config.xcconfig
+//  CompartamosFinanciera
+//
+//  Created by Julio Chavarri on 14/10/22.
+#include? "tmp.xcconfig"

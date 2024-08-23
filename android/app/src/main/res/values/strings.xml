@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Compartamos Móvil Perú</string>
+    <string name="contacts_permission">Requerimos el acceso a tus contactos para que puedas pagarles fácilmente.</string>
+</resources>

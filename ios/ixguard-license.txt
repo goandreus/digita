@@ -1,0 +1,12 @@
+# Guardsquare license file
+expiryDate            = 2024-09-07
+maintenanceExpiryDate = 2024-09-07
+product               = iXGuard
+version               = 3.*,4.*,5.*
+identifier            = pe.com.compartamos.bancamovil,pe.com.compartamos.bancamovil.dev,pe.com.compartamos.bancamovil.qas,pe.com.compartamos.bancamovil.pil,pe.com.compartamos.bancamovil.qa
+licensee              = Compartamos Financiera
+customerID            = AC00012174
+contact               = Perez Carlos D.
+contactEmail          = dperez@compartamos.pe
+licenseFileVersion    = 1
+licenseKey            = 1a2dc9f5fe23bb981785f91da3ff2b2449acd604d720ef6469194ee114203e0e378aee2d71fbba5fc5e6e91c5144d15fb930d6aab109089018edf451f5dcf946

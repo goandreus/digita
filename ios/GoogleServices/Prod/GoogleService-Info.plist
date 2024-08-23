@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>813280864271-edf67ddnng6le14i86q9uumrn698d5np.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.813280864271-edf67ddnng6le14i86q9uumrn698d5np</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBwdvlrUaGkJ9uz2PwhC83r5N9iA_oFJUQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>813280864271</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>pe.com.compartamos.bancamovil</string>
+	<key>PROJECT_ID</key>
+	<string>cf-bancadigital-data-prd-baaf</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cf-bancadigital-data-prd-baaf.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:813280864271:ios:7795e011b21b2c1fb85b7a</string>
+</dict>
+</plist>

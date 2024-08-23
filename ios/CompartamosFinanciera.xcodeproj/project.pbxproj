@@ -1,0 +1,2196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* CompartamosFinancieraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CompartamosFinancieraTests.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		210C731C2B9B7322000F990D /* fphi-selphid-widget-resources-sdk-female.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C73152B9B7322000F990D /* fphi-selphid-widget-resources-sdk-female.zip */; };
+		210C731D2B9B7322000F990D /* fphi-selphid-widget-resources-sdk-male.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C731B2B9B7322000F990D /* fphi-selphid-widget-resources-sdk-male.zip */; };
+		210C731F2B9B7335000F990D /* fphi-selphi-widget-resources-sdk-updated.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C731E2B9B7335000F990D /* fphi-selphi-widget-resources-sdk-updated.zip */; };
+		210C73202B9B7341000F990D /* fphi-selphi-widget-resources-sdk-updated.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C731E2B9B7335000F990D /* fphi-selphi-widget-resources-sdk-updated.zip */; };
+		210C73212B9B7341000F990D /* fphi-selphid-widget-resources-sdk-female.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C73152B9B7322000F990D /* fphi-selphid-widget-resources-sdk-female.zip */; };
+		210C73222B9B7341000F990D /* fphi-selphid-widget-resources-sdk-male.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C731B2B9B7322000F990D /* fphi-selphid-widget-resources-sdk-male.zip */; };
+		210C73232B9B7347000F990D /* fphi-selphi-widget-resources-sdk-updated.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C731E2B9B7335000F990D /* fphi-selphi-widget-resources-sdk-updated.zip */; };
+		210C73242B9B7347000F990D /* fphi-selphid-widget-resources-sdk-female.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C73152B9B7322000F990D /* fphi-selphid-widget-resources-sdk-female.zip */; };
+		210C73252B9B7347000F990D /* fphi-selphid-widget-resources-sdk-male.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C731B2B9B7322000F990D /* fphi-selphid-widget-resources-sdk-male.zip */; };
+		210C73262B9B734D000F990D /* fphi-selphi-widget-resources-sdk-updated.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C731E2B9B7335000F990D /* fphi-selphi-widget-resources-sdk-updated.zip */; };
+		210C73272B9B734D000F990D /* fphi-selphid-widget-resources-sdk-female.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C73152B9B7322000F990D /* fphi-selphid-widget-resources-sdk-female.zip */; };
+		210C73282B9B734D000F990D /* fphi-selphid-widget-resources-sdk-male.zip in Resources */ = {isa = PBXBuildFile; fileRef = 210C731B2B9B7322000F990D /* fphi-selphid-widget-resources-sdk-male.zip */; };
+		2125C24027FDFDB00095FC08 /* AmorSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02E2AF74371A49BA87002193 /* AmorSansPro-Bold.ttf */; };
+		2125C24127FDFDB00095FC08 /* AmorSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA4C79719B484F6880B711C3 /* AmorSansPro-BoldItalic.ttf */; };
+		2125C24227FDFDB00095FC08 /* AmorSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB218D7184F779A2AFD4E /* AmorSansPro-Italic.ttf */; };
+		2125C24327FDFDB00095FC08 /* AmorSansPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C02915351D41D69BD42094 /* AmorSansPro.ttf */; };
+		2125C24427FDFDB00095FC08 /* Bree-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B7BBFF2431D4E279F6732BD /* Bree-Bold.otf */; };
+		2125C24527FDFDB00095FC08 /* Bree-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD992B8363E0433FBA862D5E /* Bree-Regular.otf */; };
+		212DC399286F6C8400AC1D21 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 212DC398286F6C8400AC1D21 /* AppDelegate.mm */; };
+		217842F9296891870096E93B /* RCTFingerprintModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 217842F8296891870096E93B /* RCTFingerprintModule.m */; };
+		217842FA296891870096E93B /* RCTFingerprintModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 217842F8296891870096E93B /* RCTFingerprintModule.m */; };
+		217842FB296891870096E93B /* RCTFingerprintModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 217842F8296891870096E93B /* RCTFingerprintModule.m */; };
+		217842FC296891870096E93B /* RCTFingerprintModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 217842F8296891870096E93B /* RCTFingerprintModule.m */; };
+		21BD5F4727FC945B004CB62D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BD5F4627FC945B004CB62D /* Assets.xcassets */; };
+		21C31D5729084A8500AC59AC /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 212DC398286F6C8400AC1D21 /* AppDelegate.mm */; };
+		21C31D5829084A8500AC59AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		21C31D5F29084A8500AC59AC /* apibdmprd_compartamos_com_pe.cer in Resources */ = {isa = PBXBuildFile; fileRef = DF04EDC228F8C245009596F3 /* apibdmprd_compartamos_com_pe.cer */; };
+		21C31D6229084A8500AC59AC /* AmorSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02E2AF74371A49BA87002193 /* AmorSansPro-Bold.ttf */; };
+		21C31D6329084A8500AC59AC /* AmorSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA4C79719B484F6880B711C3 /* AmorSansPro-BoldItalic.ttf */; };
+		21C31D6429084A8500AC59AC /* AmorSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB218D7184F779A2AFD4E /* AmorSansPro-Italic.ttf */; };
+		21C31D6529084A8500AC59AC /* AmorSansPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C02915351D41D69BD42094 /* AmorSansPro.ttf */; };
+		21C31D6629084A8500AC59AC /* Bree-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B7BBFF2431D4E279F6732BD /* Bree-Bold.otf */; };
+		21C31D6729084A8500AC59AC /* Bree-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD992B8363E0433FBA862D5E /* Bree-Regular.otf */; };
+		21C31D6829084A8500AC59AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		21C31D6929084A8500AC59AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BD5F4627FC945B004CB62D /* Assets.xcassets */; };
+		21C31D6A29084A8500AC59AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		21C31D8129084B7E00AC59AC /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 212DC398286F6C8400AC1D21 /* AppDelegate.mm */; };
+		21C31D8229084B7E00AC59AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		21C31D8929084B7E00AC59AC /* apibdmprd_compartamos_com_pe.cer in Resources */ = {isa = PBXBuildFile; fileRef = DF04EDC228F8C245009596F3 /* apibdmprd_compartamos_com_pe.cer */; };
+		21C31D8C29084B7E00AC59AC /* AmorSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02E2AF74371A49BA87002193 /* AmorSansPro-Bold.ttf */; };
+		21C31D8D29084B7E00AC59AC /* AmorSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA4C79719B484F6880B711C3 /* AmorSansPro-BoldItalic.ttf */; };
+		21C31D8E29084B7E00AC59AC /* AmorSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB218D7184F779A2AFD4E /* AmorSansPro-Italic.ttf */; };
+		21C31D8F29084B7E00AC59AC /* AmorSansPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C02915351D41D69BD42094 /* AmorSansPro.ttf */; };
+		21C31D9029084B7E00AC59AC /* Bree-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B7BBFF2431D4E279F6732BD /* Bree-Bold.otf */; };
+		21C31D9129084B7E00AC59AC /* Bree-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD992B8363E0433FBA862D5E /* Bree-Regular.otf */; };
+		21C31D9229084B7E00AC59AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		21C31D9329084B7E00AC59AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BD5F4627FC945B004CB62D /* Assets.xcassets */; };
+		21C31D9429084B7E00AC59AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		21E05A4B29283CF400F236B1 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 212DC398286F6C8400AC1D21 /* AppDelegate.mm */; };
+		21E05A4C29283CF400F236B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		21E05A5129283CF400F236B1 /* apibdmprd_compartamos_com_pe.cer in Resources */ = {isa = PBXBuildFile; fileRef = DF04EDC228F8C245009596F3 /* apibdmprd_compartamos_com_pe.cer */; };
+		21E05A5429283CF400F236B1 /* AmorSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02E2AF74371A49BA87002193 /* AmorSansPro-Bold.ttf */; };
+		21E05A5529283CF400F236B1 /* AmorSansPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA4C79719B484F6880B711C3 /* AmorSansPro-BoldItalic.ttf */; };
+		21E05A5629283CF400F236B1 /* AmorSansPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EFFB218D7184F779A2AFD4E /* AmorSansPro-Italic.ttf */; };
+		21E05A5729283CF400F236B1 /* AmorSansPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C02915351D41D69BD42094 /* AmorSansPro.ttf */; };
+		21E05A5829283CF400F236B1 /* Bree-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B7BBFF2431D4E279F6732BD /* Bree-Bold.otf */; };
+		21E05A5929283CF400F236B1 /* Bree-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD992B8363E0433FBA862D5E /* Bree-Regular.otf */; };
+		21E05A5A29283CF400F236B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		21E05A5B29283CF400F236B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BD5F4627FC945B004CB62D /* Assets.xcassets */; };
+		21E05A5C29283CF400F236B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		21E05A7A29283F7E00F236B1 /* Info(qa).plist in Resources */ = {isa = PBXBuildFile; fileRef = 21E05A7929283F7E00F236B1 /* Info(qa).plist */; };
+		799ACAEEAAECBBFEFFCF04A3 /* Pods_qa_CompartamosFinancieraTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEE0949E78E3E0ACADCD6A1 /* Pods_qa_CompartamosFinancieraTarget.framework */; };
+		7CB85105F375EE857C171C93 /* Pods_prod_CompartamosFinancieraTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA6D7BC538FE98CFBF25F2F /* Pods_prod_CompartamosFinancieraTarget.framework */; };
+		7E2A08582B3CBB4E00E457DC /* apimngqa.cer in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A08522B3CBB4E00E457DC /* apimngqa.cer */; };
+		7E68227F2B3337C5002914EA /* apimngdev.cer in Resources */ = {isa = PBXBuildFile; fileRef = 7E6822792B3337C5002914EA /* apimngdev.cer */; };
+		7E7FB7C42B4E07FD007B05B9 /* apimng.cer in Resources */ = {isa = PBXBuildFile; fileRef = 7E7FB7BE2B4E07FD007B05B9 /* apimng.cer */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AAF5D89B85C0DA11DC0179C1 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		BB5C16BF2DABF68D9DDC7921 /* Pods_prod_CompartamosFinancieraTarget_CompartamosFinancieraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414A9C6D3184293B03A67551 /* Pods_prod_CompartamosFinancieraTarget_CompartamosFinancieraTests.framework */; };
+		BF0E107529FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF0E107329FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf */; };
+		BF0E107629FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF0E107329FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf */; };
+		BF0E107729FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF0E107329FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf */; };
+		BF0E107829FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF0E107329FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf */; };
+		BF0E107929FC5C48003ADF12 /* BreeCFApp-BoldBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF0E107429FC5C48003ADF12 /* BreeCFApp-BoldBold.otf */; };
+		BF0E107A29FC5C48003ADF12 /* BreeCFApp-BoldBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF0E107429FC5C48003ADF12 /* BreeCFApp-BoldBold.otf */; };
+		BF0E107B29FC5C48003ADF12 /* BreeCFApp-BoldBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF0E107429FC5C48003ADF12 /* BreeCFApp-BoldBold.otf */; };
+		BF0E107C29FC5C48003ADF12 /* BreeCFApp-BoldBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF0E107429FC5C48003ADF12 /* BreeCFApp-BoldBold.otf */; };
+		DB3F81B9A3B562D612C23A59 /* Pods_qas_CompartamosFinancieraTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452E8013736A7D0F538F91D2 /* Pods_qas_CompartamosFinancieraTarget.framework */; };
+		DF04EDC428F8C245009596F3 /* apibdmprd_compartamos_com_pe.cer in Resources */ = {isa = PBXBuildFile; fileRef = DF04EDC228F8C245009596F3 /* apibdmprd_compartamos_com_pe.cer */; };
+		DF0F2B1D296DC6F000FB2484 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF0F2B1C296DC6F000FB2484 /* GoogleService-Info.plist */; };
+		DF2BD5052905C49D00071CB2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF2BD5042905C49D00071CB2 /* GoogleService-Info.plist */; };
+		DF7907E32B75266D00DDF761 /* apinoprdbdm.cer in Resources */ = {isa = PBXBuildFile; fileRef = DF7907DD2B75266D00DDF761 /* apinoprdbdm.cer */; };
+		DF91E6262AFBDB0900C42458 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF91E6252AFBDB0900C42458 /* GoogleService-Info.plist */; };
+		DF91E6292AFBDB1E00C42458 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF91E6282AFBDB1E00C42458 /* GoogleService-Info.plist */; };
+		DFA331CA2ADB2B970061C034 /* apibdmprd_compartamos_com_pe_2.cer in Resources */ = {isa = PBXBuildFile; fileRef = DFA331C42ADB2B970061C034 /* apibdmprd_compartamos_com_pe_2.cer */; };
+		DFD8ACED2B213584003C625C /* apinoprdbdm.cer in Resources */ = {isa = PBXBuildFile; fileRef = DFD8ACEB2B213584003C625C /* apinoprdbdm.cer */; };
+		DFD8ACEE2B213584003C625C /* apinoprdbdm.cer in Resources */ = {isa = PBXBuildFile; fileRef = DFD8ACEB2B213584003C625C /* apinoprdbdm.cer */; };
+		DFE672302BFD5DCD00B25A87 /* BreeCF-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE672282BFD5DCD00B25A87 /* BreeCF-Regular.otf */; };
+		DFE672312BFD5DCD00B25A87 /* BreeCF-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE6722E2BFD5DCD00B25A87 /* BreeCF-Bold.otf */; };
+		DFE672322BFD5DCD00B25A87 /* BreeCF-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE6722F2BFD5DCD00B25A87 /* BreeCF-Light.otf */; };
+		DFE672362BFD5E3900B25A87 /* BreeCF-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE672332BFD5E3900B25A87 /* BreeCF-Regular.otf */; };
+		DFE672372BFD5E3900B25A87 /* BreeCF-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE672342BFD5E3900B25A87 /* BreeCF-Light.otf */; };
+		DFE672382BFD5E3900B25A87 /* BreeCF-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE672352BFD5E3900B25A87 /* BreeCF-Bold.otf */; };
+		DFE6723C2BFD5E7700B25A87 /* BreeCF-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE672392BFD5E7700B25A87 /* BreeCF-Bold.otf */; };
+		DFE6723D2BFD5E7700B25A87 /* BreeCF-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE6723A2BFD5E7700B25A87 /* BreeCF-Light.otf */; };
+		DFE6723E2BFD5E7700B25A87 /* BreeCF-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE6723B2BFD5E7700B25A87 /* BreeCF-Regular.otf */; };
+		DFE672422BFD5EA300B25A87 /* BreeCF-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE6723F2BFD5EA300B25A87 /* BreeCF-Light.otf */; };
+		DFE672432BFD5EA300B25A87 /* BreeCF-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE672402BFD5EA300B25A87 /* BreeCF-Regular.otf */; };
+		DFE672442BFD5EA300B25A87 /* BreeCF-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DFE672412BFD5EA300B25A87 /* BreeCF-Bold.otf */; };
+		E84756FE51621E285EAC2FC0 /* Pods_dev_CompartamosFinancieraTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEF4B3F987F665CABCBB423 /* Pods_dev_CompartamosFinancieraTarget.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = CompartamosFinanciera;
+		};
+		21E05A7529283EDA00F236B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21E05A7129283EDA00F236B1 /* RNCCameraRoll.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
+			remoteInfo = RNCCameraRoll;
+		};
+		DF16D69D2A589CA200ADBC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF16D6952A589CA200ADBC1A /* SplashScreen.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D7682761D8E76B80014119E;
+			remoteInfo = SplashScreen;
+		};
+		DF6F74322925A45A00B0E4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6F742B2925A45A00B0E4BB /* RNCNetInfo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNCNetInfo;
+		};
+		DF6F74342925A45A00B0E4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6F742B2925A45A00B0E4BB /* RNCNetInfo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5027B1B2237B30F00F1AABA;
+			remoteInfo = "RNCNetInfo-tvOS";
+		};
+		DF6F74362925A45A00B0E4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6F742B2925A45A00B0E4BB /* RNCNetInfo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3846DAC62403170500B4283E;
+			remoteInfo = "RNCNetInfo-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* CompartamosFinancieraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompartamosFinancieraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CompartamosFinancieraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompartamosFinancieraTests.m; sourceTree = "<group>"; };
+		02E2AF74371A49BA87002193 /* AmorSansPro-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AmorSansPro-Bold.ttf"; path = "../src/assets/fonts/AmorSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		0B7BBFF2431D4E279F6732BD /* Bree-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Bree-Bold.otf"; path = "../src/assets/fonts/Bree-Bold.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* CompartamosFinanciera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompartamosFinanciera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CompartamosFinanciera/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CompartamosFinanciera/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info(prod).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info(prod).plist"; path = "CompartamosFinanciera/Info(prod).plist"; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CompartamosFinanciera/main.m; sourceTree = "<group>"; };
+		210C73152B9B7322000F990D /* fphi-selphid-widget-resources-sdk-female.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "fphi-selphid-widget-resources-sdk-female.zip"; path = "../facephi_resources/selphid/ios/Resources/fphi-selphid-widget-resources-sdk-female.zip"; sourceTree = "<group>"; };
+		210C731B2B9B7322000F990D /* fphi-selphid-widget-resources-sdk-male.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "fphi-selphid-widget-resources-sdk-male.zip"; path = "../facephi_resources/selphid/ios/Resources/fphi-selphid-widget-resources-sdk-male.zip"; sourceTree = "<group>"; };
+		210C731E2B9B7335000F990D /* fphi-selphi-widget-resources-sdk-updated.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "fphi-selphi-widget-resources-sdk-updated.zip"; path = "../facephi_resources/selphi/ios/Resources/fphi-selphi-widget-resources-sdk-updated.zip"; sourceTree = "<group>"; };
+		212DC398286F6C8400AC1D21 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CompartamosFinanciera/AppDelegate.mm; sourceTree = "<group>"; };
+		217842F3296891320096E93B /* RCTFingerprintModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTFingerprintModule.h; sourceTree = "<group>"; };
+		217842F8296891870096E93B /* RCTFingerprintModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTFingerprintModule.m; sourceTree = "<group>"; };
+		21BD5F4627FC945B004CB62D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21C31D7729084A8500AC59AC /* dev_CompartamosFinancieraTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dev_CompartamosFinancieraTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C31D7A29084ACD00AC59AC /* Info(dev).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info(dev).plist"; path = "CompartamosFinanciera/Info(dev).plist"; sourceTree = "<group>"; };
+		21C31DA129084B7E00AC59AC /* qas_CompartamosFinancieraTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qas_CompartamosFinancieraTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C31DA329084BB000AC59AC /* Info(qas).plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info(qas).plist"; path = "CompartamosFinanciera/Info(qas).plist"; sourceTree = "<group>"; };
+		21E05A6529283CF400F236B1 /* qa_CompartamosFinancieraTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qa_CompartamosFinancieraTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E05A7129283EDA00F236B1 /* RNCCameraRoll.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCCameraRoll.xcodeproj; path = "../node_modules/@react-native-camera-roll/camera-roll/ios/RNCCameraRoll.xcodeproj"; sourceTree = "<group>"; };
+		21E05A7929283F7E00F236B1 /* Info(qa).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info(qa).plist"; path = "CompartamosFinanciera/Info(qa).plist"; sourceTree = "<group>"; };
+		290D9D62224DA10A9AC2AA87 /* Pods-prod_CompartamosFinancieraTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prod_CompartamosFinancieraTarget.release.xcconfig"; path = "Target Support Files/Pods-prod_CompartamosFinancieraTarget/Pods-prod_CompartamosFinancieraTarget.release.xcconfig"; sourceTree = "<group>"; };
+		411A4053980BADED848ED772 /* Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests.release.xcconfig"; path = "Target Support Files/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests.release.xcconfig"; sourceTree = "<group>"; };
+		414A9C6D3184293B03A67551 /* Pods_prod_CompartamosFinancieraTarget_CompartamosFinancieraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_prod_CompartamosFinancieraTarget_CompartamosFinancieraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C02915351D41D69BD42094 /* AmorSansPro.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AmorSansPro.ttf; path = ../src/assets/fonts/AmorSansPro.ttf; sourceTree = "<group>"; };
+		452E8013736A7D0F538F91D2 /* Pods_qas_CompartamosFinancieraTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qas_CompartamosFinancieraTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDD943D4FED8CCA4E265BCE /* Pods-qa_CompartamosFinancieraTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qa_CompartamosFinancieraTarget.debug.xcconfig"; path = "Target Support Files/Pods-qa_CompartamosFinancieraTarget/Pods-qa_CompartamosFinancieraTarget.debug.xcconfig"; sourceTree = "<group>"; };
+		55E10B4C6087622C6FFB909F /* Pods-qas_CompartamosFinancieraTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qas_CompartamosFinancieraTarget.release.xcconfig"; path = "Target Support Files/Pods-qas_CompartamosFinancieraTarget/Pods-qas_CompartamosFinancieraTarget.release.xcconfig"; sourceTree = "<group>"; };
+		5DEE0949E78E3E0ACADCD6A1 /* Pods_qa_CompartamosFinancieraTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qa_CompartamosFinancieraTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DABBBC4B3505708EBD034B /* Pods-qas_CompartamosFinancieraTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qas_CompartamosFinancieraTarget.debug.xcconfig"; path = "Target Support Files/Pods-qas_CompartamosFinancieraTarget/Pods-qas_CompartamosFinancieraTarget.debug.xcconfig"; sourceTree = "<group>"; };
+		7E2A08522B3CBB4E00E457DC /* apimngqa.cer */ = {isa = PBXFileReference; lastKnownFileType = text; path = apimngqa.cer; sourceTree = "<group>"; };
+		7E6822792B3337C5002914EA /* apimngdev.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = apimngdev.cer; sourceTree = "<group>"; };
+		7E7FB7BE2B4E07FD007B05B9 /* apimng.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = apimng.cer; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CompartamosFinanciera/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B553AEEDF4210D6D93FB834 /* Pods-prod_CompartamosFinancieraTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prod_CompartamosFinancieraTarget.debug.xcconfig"; path = "Target Support Files/Pods-prod_CompartamosFinancieraTarget/Pods-prod_CompartamosFinancieraTarget.debug.xcconfig"; sourceTree = "<group>"; };
+		9EFFB218D7184F779A2AFD4E /* AmorSansPro-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AmorSansPro-Italic.ttf"; path = "../src/assets/fonts/AmorSansPro-Italic.ttf"; sourceTree = "<group>"; };
+		A4C09FBBDA68BF4D9E8F0207 /* Pods-dev_CompartamosFinancieraTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev_CompartamosFinancieraTarget.release.xcconfig"; path = "Target Support Files/Pods-dev_CompartamosFinancieraTarget/Pods-dev_CompartamosFinancieraTarget.release.xcconfig"; sourceTree = "<group>"; };
+		BCA6D7BC538FE98CFBF25F2F /* Pods_prod_CompartamosFinancieraTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_prod_CompartamosFinancieraTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0E107329FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCFApp-RegularRegular.otf"; path = "../src/assets/fonts/BreeCFApp-RegularRegular.otf"; sourceTree = "<group>"; };
+		BF0E107429FC5C48003ADF12 /* BreeCFApp-BoldBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCFApp-BoldBold.otf"; path = "../src/assets/fonts/BreeCFApp-BoldBold.otf"; sourceTree = "<group>"; };
+		CD992B8363E0433FBA862D5E /* Bree-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Bree-Regular.otf"; path = "../src/assets/fonts/Bree-Regular.otf"; sourceTree = "<group>"; };
+		DEEF4B3F987F665CABCBB423 /* Pods_dev_CompartamosFinancieraTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dev_CompartamosFinancieraTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF04EDC228F8C245009596F3 /* apibdmprd_compartamos_com_pe.cer */ = {isa = PBXFileReference; lastKnownFileType = text; path = apibdmprd_compartamos_com_pe.cer; sourceTree = "<group>"; };
+		DF0F2B1C296DC6F000FB2484 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF16D6952A589CA200ADBC1A /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
+		DF2BD5042905C49D00071CB2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF45D7572AEC21EB009C5504 /* qa_CompartamosFinancieraTarget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = qa_CompartamosFinancieraTarget.entitlements; sourceTree = "<group>"; };
+		DF45D75D2AEC222B009C5504 /* dev_CompartamosFinancieraTarget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dev_CompartamosFinancieraTarget.entitlements; sourceTree = "<group>"; };
+		DF45D75E2AEC2236009C5504 /* prod_CompartamosFinancieraTarget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = prod_CompartamosFinancieraTarget.entitlements; sourceTree = "<group>"; };
+		DF45D75F2AEC2274009C5504 /* qas_CompartamosFinancieraTarget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = qas_CompartamosFinancieraTarget.entitlements; sourceTree = "<group>"; };
+		DF6F742B2925A45A00B0E4BB /* RNCNetInfo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = RNCNetInfo.xcodeproj; sourceTree = "<group>"; };
+		DF7907DD2B75266D00DDF761 /* apinoprdbdm.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = apinoprdbdm.cer; sourceTree = "<group>"; };
+		DF91E6252AFBDB0900C42458 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF91E6282AFBDB1E00C42458 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFA331C42ADB2B970061C034 /* apibdmprd_compartamos_com_pe_2.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = apibdmprd_compartamos_com_pe_2.cer; sourceTree = "<group>"; };
+		DFD8ACEB2B213584003C625C /* apinoprdbdm.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = apinoprdbdm.cer; sourceTree = "<group>"; };
+		DFE1BBBD28F9A1280033ECA1 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DFE672282BFD5DCD00B25A87 /* BreeCF-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Regular.otf"; path = "../src/assets/fonts/BreeCF-Regular.otf"; sourceTree = "<group>"; };
+		DFE6722E2BFD5DCD00B25A87 /* BreeCF-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Bold.otf"; path = "../src/assets/fonts/BreeCF-Bold.otf"; sourceTree = "<group>"; };
+		DFE6722F2BFD5DCD00B25A87 /* BreeCF-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Light.otf"; path = "../src/assets/fonts/BreeCF-Light.otf"; sourceTree = "<group>"; };
+		DFE672332BFD5E3900B25A87 /* BreeCF-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Regular.otf"; path = "../src/assets/fonts/BreeCF-Regular.otf"; sourceTree = "<group>"; };
+		DFE672342BFD5E3900B25A87 /* BreeCF-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Light.otf"; path = "../src/assets/fonts/BreeCF-Light.otf"; sourceTree = "<group>"; };
+		DFE672352BFD5E3900B25A87 /* BreeCF-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Bold.otf"; path = "../src/assets/fonts/BreeCF-Bold.otf"; sourceTree = "<group>"; };
+		DFE672392BFD5E7700B25A87 /* BreeCF-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Bold.otf"; path = "../src/assets/fonts/BreeCF-Bold.otf"; sourceTree = "<group>"; };
+		DFE6723A2BFD5E7700B25A87 /* BreeCF-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Light.otf"; path = "../src/assets/fonts/BreeCF-Light.otf"; sourceTree = "<group>"; };
+		DFE6723B2BFD5E7700B25A87 /* BreeCF-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Regular.otf"; path = "../src/assets/fonts/BreeCF-Regular.otf"; sourceTree = "<group>"; };
+		DFE6723F2BFD5EA300B25A87 /* BreeCF-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Light.otf"; path = "../src/assets/fonts/BreeCF-Light.otf"; sourceTree = "<group>"; };
+		DFE672402BFD5EA300B25A87 /* BreeCF-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Regular.otf"; path = "../src/assets/fonts/BreeCF-Regular.otf"; sourceTree = "<group>"; };
+		DFE672412BFD5EA300B25A87 /* BreeCF-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BreeCF-Bold.otf"; path = "../src/assets/fonts/BreeCF-Bold.otf"; sourceTree = "<group>"; };
+		E451E3728713ED918EE8D6E0 /* Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests.debug.xcconfig"; path = "Target Support Files/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5D88351B36FC89B35C83C3F /* Pods-qa_CompartamosFinancieraTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qa_CompartamosFinancieraTarget.release.xcconfig"; path = "Target Support Files/Pods-qa_CompartamosFinancieraTarget/Pods-qa_CompartamosFinancieraTarget.release.xcconfig"; sourceTree = "<group>"; };
+		E9D86690B5D3ECF3B10C1B8B /* Pods-dev_CompartamosFinancieraTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev_CompartamosFinancieraTarget.debug.xcconfig"; path = "Target Support Files/Pods-dev_CompartamosFinancieraTarget/Pods-dev_CompartamosFinancieraTarget.debug.xcconfig"; sourceTree = "<group>"; };
+		EA4C79719B484F6880B711C3 /* AmorSansPro-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "AmorSansPro-BoldItalic.ttf"; path = "../src/assets/fonts/AmorSansPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5C16BF2DABF68D9DDC7921 /* Pods_prod_CompartamosFinancieraTarget_CompartamosFinancieraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB85105F375EE857C171C93 /* Pods_prod_CompartamosFinancieraTarget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C31D5929084A8500AC59AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84756FE51621E285EAC2FC0 /* Pods_dev_CompartamosFinancieraTarget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C31D8329084B7E00AC59AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF5D89B85C0DA11DC0179C1 /* BuildFile in Frameworks */,
+				DB3F81B9A3B562D612C23A59 /* Pods_qas_CompartamosFinancieraTarget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E05A4D29283CF400F236B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799ACAEEAAECBBFEFFCF04A3 /* Pods_qa_CompartamosFinancieraTarget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* CompartamosFinancieraTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* CompartamosFinancieraTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = CompartamosFinancieraTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* CompartamosFinanciera */ = {
+			isa = PBXGroup;
+			children = (
+				21E05A7929283F7E00F236B1 /* Info(qa).plist */,
+				13B07FB61A68108700A75B9A /* Info(prod).plist */,
+				21C31DA329084BB000AC59AC /* Info(qas).plist */,
+				21C31D7A29084ACD00AC59AC /* Info(dev).plist */,
+				212DC398286F6C8400AC1D21 /* AppDelegate.mm */,
+				21BD5F4627FC945B004CB62D /* Assets.xcassets */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				217842F3296891320096E93B /* RCTFingerprintModule.h */,
+				217842F8296891870096E93B /* RCTFingerprintModule.m */,
+			);
+			name = CompartamosFinanciera;
+			sourceTree = "<group>";
+		};
+		21E05A7229283EDA00F236B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21E05A7629283EDA00F236B1 /* libRNCCameraRoll.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				DEEF4B3F987F665CABCBB423 /* Pods_dev_CompartamosFinancieraTarget.framework */,
+				BCA6D7BC538FE98CFBF25F2F /* Pods_prod_CompartamosFinancieraTarget.framework */,
+				414A9C6D3184293B03A67551 /* Pods_prod_CompartamosFinancieraTarget_CompartamosFinancieraTests.framework */,
+				5DEE0949E78E3E0ACADCD6A1 /* Pods_qa_CompartamosFinancieraTarget.framework */,
+				452E8013736A7D0F538F91D2 /* Pods_qas_CompartamosFinancieraTarget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				21E05A7129283EDA00F236B1 /* RNCCameraRoll.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				DFE6722E2BFD5DCD00B25A87 /* BreeCF-Bold.otf */,
+				DFE672352BFD5E3900B25A87 /* BreeCF-Bold.otf */,
+				DFE672412BFD5EA300B25A87 /* BreeCF-Bold.otf */,
+				DFE6722F2BFD5DCD00B25A87 /* BreeCF-Light.otf */,
+				DFE672342BFD5E3900B25A87 /* BreeCF-Light.otf */,
+				DFE672282BFD5DCD00B25A87 /* BreeCF-Regular.otf */,
+				DFE672332BFD5E3900B25A87 /* BreeCF-Regular.otf */,
+				DFE672392BFD5E7700B25A87 /* BreeCF-Bold.otf */,
+				DFE6723A2BFD5E7700B25A87 /* BreeCF-Light.otf */,
+				DFE6723B2BFD5E7700B25A87 /* BreeCF-Regular.otf */,
+				DFE6723F2BFD5EA300B25A87 /* BreeCF-Light.otf */,
+				DFE672402BFD5EA300B25A87 /* BreeCF-Regular.otf */,
+				DF7907DD2B75266D00DDF761 /* apinoprdbdm.cer */,
+				210C731E2B9B7335000F990D /* fphi-selphi-widget-resources-sdk-updated.zip */,
+				210C73152B9B7322000F990D /* fphi-selphid-widget-resources-sdk-female.zip */,
+				210C731B2B9B7322000F990D /* fphi-selphid-widget-resources-sdk-male.zip */,
+				7E7FB7BE2B4E07FD007B05B9 /* apimng.cer */,
+				7E2A08522B3CBB4E00E457DC /* apimngqa.cer */,
+				7E6822792B3337C5002914EA /* apimngdev.cer */,
+				DF45D75F2AEC2274009C5504 /* qas_CompartamosFinancieraTarget.entitlements */,
+				DF45D75E2AEC2236009C5504 /* prod_CompartamosFinancieraTarget.entitlements */,
+				DF45D75D2AEC222B009C5504 /* dev_CompartamosFinancieraTarget.entitlements */,
+				DF45D7572AEC21EB009C5504 /* qa_CompartamosFinancieraTarget.entitlements */,
+				DF16D6952A589CA200ADBC1A /* SplashScreen.xcodeproj */,
+				DFA331C42ADB2B970061C034 /* apibdmprd_compartamos_com_pe_2.cer */,
+				DF6F742A2925A45A00B0E4BB /* macos */,
+				DF2BD4FC2905C42F00071CB2 /* GoogleServices */,
+				DFE1BBBD28F9A1280033ECA1 /* Config.xcconfig */,
+				DF04EDC228F8C245009596F3 /* apibdmprd_compartamos_com_pe.cer */,
+				DFD8ACEB2B213584003C625C /* apinoprdbdm.cer */,
+				13B07FAE1A68108700A75B9A /* CompartamosFinanciera */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* CompartamosFinancieraTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				E233CBF5F47BEE60B243DCF8 /* Pods */,
+				E15D484D2CE54D0B91CA2C67 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* CompartamosFinanciera.app */,
+				00E356EE1AD99517003FC87E /* CompartamosFinancieraTests.xctest */,
+				21C31D7729084A8500AC59AC /* dev_CompartamosFinancieraTarget.app */,
+				21C31DA129084B7E00AC59AC /* qas_CompartamosFinancieraTarget.app */,
+				21E05A6529283CF400F236B1 /* qa_CompartamosFinancieraTarget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF16D6962A589CA200ADBC1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF16D69E2A589CA200ADBC1A /* libSplashScreen.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF2BD4FC2905C42F00071CB2 /* GoogleServices */ = {
+			isa = PBXGroup;
+			children = (
+				DF91E6272AFBDB1E00C42458 /* Qas */,
+				DF91E6242AFBDB0900C42458 /* Qa */,
+				DF2BD5032905C48D00071CB2 /* Prod */,
+				DF2BD4FD2905C44300071CB2 /* Dev */,
+			);
+			path = GoogleServices;
+			sourceTree = "<group>";
+		};
+		DF2BD4FD2905C44300071CB2 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				DF0F2B1C296DC6F000FB2484 /* GoogleService-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		DF2BD5032905C48D00071CB2 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				DF2BD5042905C49D00071CB2 /* GoogleService-Info.plist */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		DF6F742A2925A45A00B0E4BB /* macos */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F742B2925A45A00B0E4BB /* RNCNetInfo.xcodeproj */,
+			);
+			name = macos;
+			path = "../node_modules/@react-native-community/netinfo/macos";
+			sourceTree = "<group>";
+		};
+		DF6F742C2925A45A00B0E4BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F74332925A45A00B0E4BB /* libRNCNetInfo.a */,
+				DF6F74352925A45A00B0E4BB /* libRNCNetInfo-tvOS.a */,
+				DF6F74372925A45A00B0E4BB /* libRNCNetInfo-macOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF91E6242AFBDB0900C42458 /* Qa */ = {
+			isa = PBXGroup;
+			children = (
+				DF91E6252AFBDB0900C42458 /* GoogleService-Info.plist */,
+			);
+			path = Qa;
+			sourceTree = "<group>";
+		};
+		DF91E6272AFBDB1E00C42458 /* Qas */ = {
+			isa = PBXGroup;
+			children = (
+				DF91E6282AFBDB1E00C42458 /* GoogleService-Info.plist */,
+			);
+			path = Qas;
+			sourceTree = "<group>";
+		};
+		E15D484D2CE54D0B91CA2C67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF0E107429FC5C48003ADF12 /* BreeCFApp-BoldBold.otf */,
+				BF0E107329FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf */,
+				02E2AF74371A49BA87002193 /* AmorSansPro-Bold.ttf */,
+				EA4C79719B484F6880B711C3 /* AmorSansPro-BoldItalic.ttf */,
+				9EFFB218D7184F779A2AFD4E /* AmorSansPro-Italic.ttf */,
+				44C02915351D41D69BD42094 /* AmorSansPro.ttf */,
+				0B7BBFF2431D4E279F6732BD /* Bree-Bold.otf */,
+				CD992B8363E0433FBA862D5E /* Bree-Regular.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9D86690B5D3ECF3B10C1B8B /* Pods-dev_CompartamosFinancieraTarget.debug.xcconfig */,
+				A4C09FBBDA68BF4D9E8F0207 /* Pods-dev_CompartamosFinancieraTarget.release.xcconfig */,
+				8B553AEEDF4210D6D93FB834 /* Pods-prod_CompartamosFinancieraTarget.debug.xcconfig */,
+				290D9D62224DA10A9AC2AA87 /* Pods-prod_CompartamosFinancieraTarget.release.xcconfig */,
+				E451E3728713ED918EE8D6E0 /* Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests.debug.xcconfig */,
+				411A4053980BADED848ED772 /* Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests.release.xcconfig */,
+				4CDD943D4FED8CCA4E265BCE /* Pods-qa_CompartamosFinancieraTarget.debug.xcconfig */,
+				E5D88351B36FC89B35C83C3F /* Pods-qa_CompartamosFinancieraTarget.release.xcconfig */,
+				71DABBBC4B3505708EBD034B /* Pods-qas_CompartamosFinancieraTarget.debug.xcconfig */,
+				55E10B4C6087622C6FFB909F /* Pods-qas_CompartamosFinancieraTarget.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* CompartamosFinancieraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CompartamosFinancieraTests" */;
+			buildPhases = (
+				260971A42C0F0726468F710E /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				9E4AF944852785BA727C969E /* [CP] Embed Pods Frameworks */,
+				4BF902EA4DB648A5B7760547 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = CompartamosFinancieraTests;
+			productName = CompartamosFinancieraTests;
+			productReference = 00E356EE1AD99517003FC87E /* CompartamosFinancieraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* prod_CompartamosFinancieraTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "prod_CompartamosFinancieraTarget" */;
+			buildPhases = (
+				4BB1E032EE71373B0B0F0984 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				85B8328502D7B01291B34118 /* [CP] Embed Pods Frameworks */,
+				8C34479C167B1A8762026C6F /* [CP] Copy Pods Resources */,
+				9B9C42A81F2611882C46D543 /* [CP-User] [RNFB] Core Configuration */,
+				5F24729C6EE5F2CE024AAEBB /* [CP-User] [RNFB] Crashlytics Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prod_CompartamosFinancieraTarget;
+			productName = CompartamosFinanciera;
+			productReference = 13B07F961A680F5B00A75B9A /* CompartamosFinanciera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21C31D5329084A8500AC59AC /* dev_CompartamosFinancieraTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C31D7029084A8500AC59AC /* Build configuration list for PBXNativeTarget "dev_CompartamosFinancieraTarget" */;
+			buildPhases = (
+				BAFB4713B854314A862C6673 /* [CP] Check Pods Manifest.lock */,
+				21C31D5529084A8500AC59AC /* Start Packager */,
+				21C31D5629084A8500AC59AC /* Sources */,
+				21C31D5929084A8500AC59AC /* Frameworks */,
+				21C31D5D29084A8500AC59AC /* Resources */,
+				21C31D6B29084A8500AC59AC /* Bundle React Native code and images */,
+				34198C6DC9DE1823454D7D2C /* [CP] Embed Pods Frameworks */,
+				7D0BAC0708F2CE04B7CDF93E /* [CP] Copy Pods Resources */,
+				7D2CD90DB7C6ED07F50E2BBD /* [CP-User] [RNFB] Core Configuration */,
+				07A5E3971261CC14EC369B9A /* [CP-User] [RNFB] Crashlytics Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dev_CompartamosFinancieraTarget;
+			productName = CompartamosFinanciera;
+			productReference = 21C31D7729084A8500AC59AC /* dev_CompartamosFinancieraTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21C31D7D29084B7E00AC59AC /* qas_CompartamosFinancieraTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21C31D9A29084B7E00AC59AC /* Build configuration list for PBXNativeTarget "qas_CompartamosFinancieraTarget" */;
+			buildPhases = (
+				6BC8E0643895EF06D92306FC /* [CP] Check Pods Manifest.lock */,
+				21C31D7F29084B7E00AC59AC /* Start Packager */,
+				21C31D8029084B7E00AC59AC /* Sources */,
+				21C31D8329084B7E00AC59AC /* Frameworks */,
+				21C31D8729084B7E00AC59AC /* Resources */,
+				21C31D9529084B7E00AC59AC /* Bundle React Native code and images */,
+				173767479BD3C906BBF8D54C /* [CP] Embed Pods Frameworks */,
+				6A1C7D8483F0778E5A5DEFD1 /* [CP] Copy Pods Resources */,
+				47F9EAF98F2785FBDF5CBD54 /* [CP-User] [RNFB] Core Configuration */,
+				83D8265A49A704A6E6AB260D /* [CP-User] [RNFB] Crashlytics Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qas_CompartamosFinancieraTarget;
+			productName = CompartamosFinanciera;
+			productReference = 21C31DA129084B7E00AC59AC /* qas_CompartamosFinancieraTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21E05A4729283CF400F236B1 /* qa_CompartamosFinancieraTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E05A6229283CF400F236B1 /* Build configuration list for PBXNativeTarget "qa_CompartamosFinancieraTarget" */;
+			buildPhases = (
+				D1690EB330AA7762C0CA960D /* [CP] Check Pods Manifest.lock */,
+				21E05A4929283CF400F236B1 /* Start Packager */,
+				21E05A4A29283CF400F236B1 /* Sources */,
+				21E05A4D29283CF400F236B1 /* Frameworks */,
+				21E05A4F29283CF400F236B1 /* Resources */,
+				21E05A5D29283CF400F236B1 /* Bundle React Native code and images */,
+				348BACD5CFCBE6B59FEF6D67 /* [CP] Embed Pods Frameworks */,
+				600BAAF951C84FCA2438F3C4 /* [CP] Copy Pods Resources */,
+				203897F7FFAE415FE0E242B8 /* [CP-User] [RNFB] Core Configuration */,
+				3A55F2A49BAA6763DCBD8FAB /* [CP-User] [RNFB] Crashlytics Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qa_CompartamosFinancieraTarget;
+			productName = CompartamosFinanciera;
+			productReference = 21E05A6529283CF400F236B1 /* qa_CompartamosFinancieraTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					21E05A4729283CF400F236B1 = {
+						LastSwiftMigration = 1520;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CompartamosFinanciera" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"es-419",
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 21E05A7229283EDA00F236B1 /* Products */;
+					ProjectRef = 21E05A7129283EDA00F236B1 /* RNCCameraRoll.xcodeproj */;
+				},
+				{
+					ProductGroup = DF6F742C2925A45A00B0E4BB /* Products */;
+					ProjectRef = DF6F742B2925A45A00B0E4BB /* RNCNetInfo.xcodeproj */;
+				},
+				{
+					ProductGroup = DF16D6962A589CA200ADBC1A /* Products */;
+					ProjectRef = DF16D6952A589CA200ADBC1A /* SplashScreen.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* prod_CompartamosFinancieraTarget */,
+				21C31D5329084A8500AC59AC /* dev_CompartamosFinancieraTarget */,
+				21C31D7D29084B7E00AC59AC /* qas_CompartamosFinancieraTarget */,
+				21E05A4729283CF400F236B1 /* qa_CompartamosFinancieraTarget */,
+				00E356ED1AD99517003FC87E /* CompartamosFinancieraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		21E05A7629283EDA00F236B1 /* libRNCCameraRoll.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCCameraRoll.a;
+			remoteRef = 21E05A7529283EDA00F236B1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF16D69E2A589CA200ADBC1A /* libSplashScreen.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSplashScreen.a;
+			remoteRef = DF16D69D2A589CA200ADBC1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF6F74332925A45A00B0E4BB /* libRNCNetInfo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCNetInfo.a;
+			remoteRef = DF6F74322925A45A00B0E4BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF6F74352925A45A00B0E4BB /* libRNCNetInfo-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNCNetInfo-tvOS.a";
+			remoteRef = DF6F74342925A45A00B0E4BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DF6F74372925A45A00B0E4BB /* libRNCNetInfo-macOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNCNetInfo-macOS.a";
+			remoteRef = DF6F74362925A45A00B0E4BB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE6723C2BFD5E7700B25A87 /* BreeCF-Bold.otf in Resources */,
+				DFE6723D2BFD5E7700B25A87 /* BreeCF-Light.otf in Resources */,
+				DFE6723E2BFD5E7700B25A87 /* BreeCF-Regular.otf in Resources */,
+				210C73262B9B734D000F990D /* fphi-selphi-widget-resources-sdk-updated.zip in Resources */,
+				210C73272B9B734D000F990D /* fphi-selphid-widget-resources-sdk-female.zip in Resources */,
+				210C73282B9B734D000F990D /* fphi-selphid-widget-resources-sdk-male.zip in Resources */,
+				7E7FB7C42B4E07FD007B05B9 /* apimng.cer in Resources */,
+				BF0E107929FC5C48003ADF12 /* BreeCFApp-BoldBold.otf in Resources */,
+				DFA331CA2ADB2B970061C034 /* apibdmprd_compartamos_com_pe_2.cer in Resources */,
+				DF2BD5052905C49D00071CB2 /* GoogleService-Info.plist in Resources */,
+				DF04EDC428F8C245009596F3 /* apibdmprd_compartamos_com_pe.cer in Resources */,
+				2125C24027FDFDB00095FC08 /* AmorSansPro-Bold.ttf in Resources */,
+				2125C24127FDFDB00095FC08 /* AmorSansPro-BoldItalic.ttf in Resources */,
+				2125C24227FDFDB00095FC08 /* AmorSansPro-Italic.ttf in Resources */,
+				2125C24327FDFDB00095FC08 /* AmorSansPro.ttf in Resources */,
+				2125C24427FDFDB00095FC08 /* Bree-Bold.otf in Resources */,
+				2125C24527FDFDB00095FC08 /* Bree-Regular.otf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				21BD5F4727FC945B004CB62D /* Assets.xcassets in Resources */,
+				BF0E107529FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C31D5D29084A8500AC59AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE672362BFD5E3900B25A87 /* BreeCF-Regular.otf in Resources */,
+				DFE672372BFD5E3900B25A87 /* BreeCF-Light.otf in Resources */,
+				DFE672382BFD5E3900B25A87 /* BreeCF-Bold.otf in Resources */,
+				DF7907E32B75266D00DDF761 /* apinoprdbdm.cer in Resources */,
+				210C731F2B9B7335000F990D /* fphi-selphi-widget-resources-sdk-updated.zip in Resources */,
+				210C731C2B9B7322000F990D /* fphi-selphid-widget-resources-sdk-female.zip in Resources */,
+				210C731D2B9B7322000F990D /* fphi-selphid-widget-resources-sdk-male.zip in Resources */,
+				BF0E107A29FC5C48003ADF12 /* BreeCFApp-BoldBold.otf in Resources */,
+				DF0F2B1D296DC6F000FB2484 /* GoogleService-Info.plist in Resources */,
+				21C31D5F29084A8500AC59AC /* apibdmprd_compartamos_com_pe.cer in Resources */,
+				21C31D6229084A8500AC59AC /* AmorSansPro-Bold.ttf in Resources */,
+				21C31D6329084A8500AC59AC /* AmorSansPro-BoldItalic.ttf in Resources */,
+				21C31D6429084A8500AC59AC /* AmorSansPro-Italic.ttf in Resources */,
+				7E68227F2B3337C5002914EA /* apimngdev.cer in Resources */,
+				21C31D6529084A8500AC59AC /* AmorSansPro.ttf in Resources */,
+				21C31D6629084A8500AC59AC /* Bree-Bold.otf in Resources */,
+				21C31D6729084A8500AC59AC /* Bree-Regular.otf in Resources */,
+				21C31D6829084A8500AC59AC /* LaunchScreen.storyboard in Resources */,
+				21C31D6929084A8500AC59AC /* Assets.xcassets in Resources */,
+				BF0E107629FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf in Resources */,
+				21C31D6A29084A8500AC59AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C31D8729084B7E00AC59AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE672422BFD5EA300B25A87 /* BreeCF-Light.otf in Resources */,
+				DFE672432BFD5EA300B25A87 /* BreeCF-Regular.otf in Resources */,
+				DFE672442BFD5EA300B25A87 /* BreeCF-Bold.otf in Resources */,
+				210C73232B9B7347000F990D /* fphi-selphi-widget-resources-sdk-updated.zip in Resources */,
+				210C73242B9B7347000F990D /* fphi-selphid-widget-resources-sdk-female.zip in Resources */,
+				210C73252B9B7347000F990D /* fphi-selphid-widget-resources-sdk-male.zip in Resources */,
+				DF91E6292AFBDB1E00C42458 /* GoogleService-Info.plist in Resources */,
+				BF0E107729FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf in Resources */,
+				21C31D8929084B7E00AC59AC /* apibdmprd_compartamos_com_pe.cer in Resources */,
+				21C31D8C29084B7E00AC59AC /* AmorSansPro-Bold.ttf in Resources */,
+				21C31D8D29084B7E00AC59AC /* AmorSansPro-BoldItalic.ttf in Resources */,
+				21C31D8E29084B7E00AC59AC /* AmorSansPro-Italic.ttf in Resources */,
+				21C31D8F29084B7E00AC59AC /* AmorSansPro.ttf in Resources */,
+				DFD8ACED2B213584003C625C /* apinoprdbdm.cer in Resources */,
+				21C31D9029084B7E00AC59AC /* Bree-Bold.otf in Resources */,
+				21C31D9129084B7E00AC59AC /* Bree-Regular.otf in Resources */,
+				BF0E107B29FC5C48003ADF12 /* BreeCFApp-BoldBold.otf in Resources */,
+				21C31D9229084B7E00AC59AC /* LaunchScreen.storyboard in Resources */,
+				21C31D9329084B7E00AC59AC /* Assets.xcassets in Resources */,
+				21C31D9429084B7E00AC59AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E05A4F29283CF400F236B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE672302BFD5DCD00B25A87 /* BreeCF-Regular.otf in Resources */,
+				DFE672312BFD5DCD00B25A87 /* BreeCF-Bold.otf in Resources */,
+				DFE672322BFD5DCD00B25A87 /* BreeCF-Light.otf in Resources */,
+				DFD8ACEE2B213584003C625C /* apinoprdbdm.cer in Resources */,
+				210C73202B9B7341000F990D /* fphi-selphi-widget-resources-sdk-updated.zip in Resources */,
+				210C73212B9B7341000F990D /* fphi-selphid-widget-resources-sdk-female.zip in Resources */,
+				210C73222B9B7341000F990D /* fphi-selphid-widget-resources-sdk-male.zip in Resources */,
+				7E2A08582B3CBB4E00E457DC /* apimngqa.cer in Resources */,
+				21E05A7A29283F7E00F236B1 /* Info(qa).plist in Resources */,
+				21E05A5129283CF400F236B1 /* apibdmprd_compartamos_com_pe.cer in Resources */,
+				DF91E6262AFBDB0900C42458 /* GoogleService-Info.plist in Resources */,
+				21E05A5429283CF400F236B1 /* AmorSansPro-Bold.ttf in Resources */,
+				21E05A5529283CF400F236B1 /* AmorSansPro-BoldItalic.ttf in Resources */,
+				BF0E107C29FC5C48003ADF12 /* BreeCFApp-BoldBold.otf in Resources */,
+				21E05A5629283CF400F236B1 /* AmorSansPro-Italic.ttf in Resources */,
+				21E05A5729283CF400F236B1 /* AmorSansPro.ttf in Resources */,
+				BF0E107829FC5C48003ADF12 /* BreeCFApp-RegularRegular.otf in Resources */,
+				21E05A5829283CF400F236B1 /* Bree-Bold.otf in Resources */,
+				21E05A5929283CF400F236B1 /* Bree-Regular.otf in Resources */,
+				21E05A5A29283CF400F236B1 /* LaunchScreen.storyboard in Resources */,
+				21E05A5B29283CF400F236B1 /* Assets.xcassets in Resources */,
+				21E05A5C29283CF400F236B1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		07A5E3971261CC14EC369B9A /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		173767479BD3C906BBF8D54C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qas_CompartamosFinancieraTarget/Pods-qas_CompartamosFinancieraTarget-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qas_CompartamosFinancieraTarget/Pods-qas_CompartamosFinancieraTarget-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qas_CompartamosFinancieraTarget/Pods-qas_CompartamosFinancieraTarget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		203897F7FFAE415FE0E242B8 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		21C31D5529084A8500AC59AC /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21C31D6B29084A8500AC59AC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		21C31D7F29084B7E00AC59AC /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21C31D9529084B7E00AC59AC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		21E05A4929283CF400F236B1 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21E05A5D29283CF400F236B1 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		260971A42C0F0726468F710E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34198C6DC9DE1823454D7D2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dev_CompartamosFinancieraTarget/Pods-dev_CompartamosFinancieraTarget-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dev_CompartamosFinancieraTarget/Pods-dev_CompartamosFinancieraTarget-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dev_CompartamosFinancieraTarget/Pods-dev_CompartamosFinancieraTarget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		348BACD5CFCBE6B59FEF6D67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qa_CompartamosFinancieraTarget/Pods-qa_CompartamosFinancieraTarget-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qa_CompartamosFinancieraTarget/Pods-qa_CompartamosFinancieraTarget-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qa_CompartamosFinancieraTarget/Pods-qa_CompartamosFinancieraTarget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A55F2A49BAA6763DCBD8FAB /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		47F9EAF98F2785FBDF5CBD54 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		4BB1E032EE71373B0B0F0984 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-prod_CompartamosFinancieraTarget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BF902EA4DB648A5B7760547 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F24729C6EE5F2CE024AAEBB /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		600BAAF951C84FCA2438F3C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qa_CompartamosFinancieraTarget/Pods-qa_CompartamosFinancieraTarget-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qa_CompartamosFinancieraTarget/Pods-qa_CompartamosFinancieraTarget-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qa_CompartamosFinancieraTarget/Pods-qa_CompartamosFinancieraTarget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A1C7D8483F0778E5A5DEFD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qas_CompartamosFinancieraTarget/Pods-qas_CompartamosFinancieraTarget-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qas_CompartamosFinancieraTarget/Pods-qas_CompartamosFinancieraTarget-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qas_CompartamosFinancieraTarget/Pods-qas_CompartamosFinancieraTarget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC8E0643895EF06D92306FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qas_CompartamosFinancieraTarget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0BAC0708F2CE04B7CDF93E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dev_CompartamosFinancieraTarget/Pods-dev_CompartamosFinancieraTarget-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dev_CompartamosFinancieraTarget/Pods-dev_CompartamosFinancieraTarget-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dev_CompartamosFinancieraTarget/Pods-dev_CompartamosFinancieraTarget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2CD90DB7C6ED07F50E2BBD /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		83D8265A49A704A6E6AB260D /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		85B8328502D7B01291B34118 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget/Pods-prod_CompartamosFinancieraTarget-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget/Pods-prod_CompartamosFinancieraTarget-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget/Pods-prod_CompartamosFinancieraTarget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C34479C167B1A8762026C6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget/Pods-prod_CompartamosFinancieraTarget-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget/Pods-prod_CompartamosFinancieraTarget-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget/Pods-prod_CompartamosFinancieraTarget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B9C42A81F2611882C46D543 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		9E4AF944852785BA727C969E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests/Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAFB4713B854314A862C6673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dev_CompartamosFinancieraTarget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1690EB330AA7762C0CA960D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qa_CompartamosFinancieraTarget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* CompartamosFinancieraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212DC399286F6C8400AC1D21 /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				217842F9296891870096E93B /* RCTFingerprintModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C31D5629084A8500AC59AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C31D5729084A8500AC59AC /* AppDelegate.mm in Sources */,
+				21C31D5829084A8500AC59AC /* main.m in Sources */,
+				217842FA296891870096E93B /* RCTFingerprintModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C31D8029084B7E00AC59AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C31D8129084B7E00AC59AC /* AppDelegate.mm in Sources */,
+				21C31D8229084B7E00AC59AC /* main.m in Sources */,
+				217842FB296891870096E93B /* RCTFingerprintModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E05A4A29283CF400F236B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E05A4B29283CF400F236B1 /* AppDelegate.mm in Sources */,
+				21E05A4C29283CF400F236B1 /* main.m in Sources */,
+				217842FC296891870096E93B /* RCTFingerprintModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* prod_CompartamosFinancieraTarget */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E451E3728713ED918EE8D6E0 /* Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CompartamosFinancieraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompartamosFinanciera.app/CompartamosFinanciera";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 411A4053980BADED848ED772 /* Pods-prod_CompartamosFinancieraTarget-CompartamosFinancieraTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = CompartamosFinancieraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompartamosFinanciera.app/CompartamosFinanciera";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B553AEEDF4210D6D93FB834 /* Pods-prod_CompartamosFinancieraTarget.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = prod_CompartamosFinancieraTarget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 800;
+				DEVELOPMENT_TEAM = P3LTJNHW42;
+				ENABLE_BITCODE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion/DoubleConversion.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseABTesting/FirebaseABTesting.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreExtension/FirebaseCoreExtension.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebasePerformance/FirebasePerformance.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseRemoteConfig/FirebaseRemoteConfig.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilitiesComponents/GoogleUtilitiesComponents.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MMKV/MMKV.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MMKVCore/MMKVCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-bridging/react_bridging.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector/jsinspector.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger/reactperflogger.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImageWebPCoder/SDWebImageWebPCoder.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket/SocketRocket.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/fmt/fmt.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libevent/libevent.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libwebp/libwebp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-splash-screen/react_native_splash_screen.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/sdk-core/sdk_core.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/sdk-selphi/sdk_selphi.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/sdk-selphid/sdk_selphid.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/sdk-tracking/sdk_tracking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/zipzap/zipzap.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Fmt\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Google-Maps-iOS-Utils\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleMLKit\"",
+					"\"${PODS_ROOT}/Headers/Public/RCT-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCClipboard\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBCrashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBPerf\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBRemoteConfig\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFS\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNShare\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSslPinning\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Codegen\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-hermes\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-logger\"",
+					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/hermes-engine\"",
+					"\"${PODS_ROOT}/Headers/Public/jail-monkey\"",
+					"\"${PODS_ROOT}/Headers/Public/lottie-react-native\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-cameraroll\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-config\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-dynatrace\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geolocation-service\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-get-random-values\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-google-maps\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-maps\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-mmkv\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-netinfo\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-view-shot\"",
+					"\"$(PODS_ROOT)/DoubleConversion\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"$(inherited)",
+					"${PODS_ROOT}/GoogleMLKit/MLKitCore/Sources",
+					"\"$(PODS_ROOT)/boost\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"\"$(PODS_TARGET_SRCROOT)/include/\"",
+				);
+				INFOPLIST_FILE = "CompartamosFinanciera/Info(prod).plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.com.compartamos.bancamovil;
+				PRODUCT_MODULE_NAME = CompartamosFinanciera;
+				PRODUCT_NAME = CompartamosFinanciera;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290D9D62224DA10A9AC2AA87 /* Pods-prod_CompartamosFinancieraTarget.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = prod_CompartamosFinancieraTarget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 800;
+				DEVELOPMENT_TEAM = P3LTJNHW42;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion/DoubleConversion.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseABTesting/FirebaseABTesting.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreExtension/FirebaseCoreExtension.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCrashlytics/FirebaseCrashlytics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebasePerformance/FirebasePerformance.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseRemoteConfig/FirebaseRemoteConfig.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilitiesComponents/GoogleUtilitiesComponents.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MMKV/MMKV.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MMKVCore/MMKVCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-bridging/react_bridging.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector/jsinspector.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger/reactperflogger.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImageWebPCoder/SDWebImageWebPCoder.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket/SocketRocket.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/fmt/fmt.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libevent/libevent.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libwebp/libwebp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/lottie-ios/Lottie.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-splash-screen/react_native_splash_screen.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/sdk-core/sdk_core.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/sdk-selphi/sdk_selphi.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/sdk-selphid/sdk_selphid.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/sdk-tracking/sdk_tracking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/zipzap/zipzap.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Fmt\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Google-Maps-iOS-Utils\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleMLKit\"",
+					"\"${PODS_ROOT}/Headers/Public/RCT-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCClipboard\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBApp\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBCrashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBPerf\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFBRemoteConfig\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFS\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNShare\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSslPinning\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Codegen\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-hermes\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-logger\"",
+					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/hermes-engine\"",
+					"\"${PODS_ROOT}/Headers/Public/jail-monkey\"",
+					"\"${PODS_ROOT}/Headers/Public/lottie-react-native\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-cameraroll\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-config\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-dynatrace\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geolocation-service\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-get-random-values\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-google-maps\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-maps\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-mmkv\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-netinfo\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-view-shot\"",
+					"\"$(PODS_ROOT)/DoubleConversion\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"$(inherited)",
+					"${PODS_ROOT}/GoogleMLKit/MLKitCore/Sources",
+					"\"$(PODS_ROOT)/boost\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"\"$(PODS_TARGET_SRCROOT)/include/\"",
+				);
+				INFOPLIST_FILE = "CompartamosFinanciera/Info(prod).plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.com.compartamos.bancamovil;
+				PRODUCT_NAME = CompartamosFinanciera;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		21C31D7129084A8500AC59AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D86690B5D3ECF3B10C1B8B /* Pods-dev_CompartamosFinancieraTarget.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = dev_CompartamosFinancieraTarget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2022100601;
+				DEVELOPMENT_TEAM = P3LTJNHW42;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "CompartamosFinanciera/Info(dev).plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 8.0.19;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.com.compartamos.bancamovil.dev;
+				PRODUCT_MODULE_NAME = CompartamosFinanciera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		21C31D7429084A8500AC59AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C09FBBDA68BF4D9E8F0207 /* Pods-dev_CompartamosFinancieraTarget.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = dev_CompartamosFinancieraTarget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2022100601;
+				DEVELOPMENT_TEAM = P3LTJNHW42;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "CompartamosFinanciera/Info(dev).plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 8.0.19;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.com.compartamos.bancamovil.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		21C31D9B29084B7E00AC59AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71DABBBC4B3505708EBD034B /* Pods-qas_CompartamosFinancieraTarget.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = qas_CompartamosFinancieraTarget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2022100601;
+				DEVELOPMENT_TEAM = P3LTJNHW42;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "CompartamosFinanciera/Info(qas).plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 8.0.19;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.com.compartamos.bancamovil.qas;
+				PRODUCT_MODULE_NAME = CompartamosFinanciera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		21C31D9E29084B7E00AC59AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E10B4C6087622C6FFB909F /* Pods-qas_CompartamosFinancieraTarget.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = qas_CompartamosFinancieraTarget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2022100601;
+				DEVELOPMENT_TEAM = P3LTJNHW42;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "CompartamosFinanciera/Info(qas).plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 8.0.19;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.com.compartamos.bancamovil.qas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		21E05A6329283CF400F236B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDD943D4FED8CCA4E265BCE /* Pods-qa_CompartamosFinancieraTarget.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = qa_CompartamosFinancieraTarget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 202406120401;
+				DEVELOPMENT_TEAM = P3LTJNHW42;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"FB_SONARKIT_ENABLED=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"SD_WEBP=1",
+					"HERMES_ENABLE_DEBUGGER=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+				);
+				INFOPLIST_FILE = "CompartamosFinanciera/Info(qa).plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 8.0.152;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.com.compartamos.bancamovil.qa;
+				PRODUCT_MODULE_NAME = CompartamosFinanciera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		21E05A6429283CF400F236B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D88351B36FC89B35C83C3F /* Pods-qa_CompartamosFinancieraTarget.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = qa_CompartamosFinancieraTarget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 202406120401;
+				DEVELOPMENT_TEAM = P3LTJNHW42;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+					"$(inherited)",
+					"SD_WEBP=1",
+					"HERMES_ENABLE_DEBUGGER=1",
+					"$(inherited)",
+					"PB_FIELD_32BIT=1",
+					"PB_NO_PACKED_STRUCTS=1",
+					"PB_ENABLE_MALLOC=1",
+				);
+				INFOPLIST_FILE = "CompartamosFinanciera/Info(qa).plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 8.0.152;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.com.compartamos.bancamovil.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE1BBBD28F9A1280033ECA1 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE1BBBD28F9A1280033ECA1 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CompartamosFinancieraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "prod_CompartamosFinancieraTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21C31D7029084A8500AC59AC /* Build configuration list for PBXNativeTarget "dev_CompartamosFinancieraTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C31D7129084A8500AC59AC /* Debug */,
+				21C31D7429084A8500AC59AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21C31D9A29084B7E00AC59AC /* Build configuration list for PBXNativeTarget "qas_CompartamosFinancieraTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21C31D9B29084B7E00AC59AC /* Debug */,
+				21C31D9E29084B7E00AC59AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21E05A6229283CF400F236B1 /* Build configuration list for PBXNativeTarget "qa_CompartamosFinancieraTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E05A6329283CF400F236B1 /* Debug */,
+				21E05A6429283CF400F236B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CompartamosFinanciera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
